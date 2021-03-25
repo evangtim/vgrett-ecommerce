@@ -78,6 +78,14 @@ body {
   border-radius: 5rem;
 }
 
+#header .left .login{
+  display: inline;
+  position: relative;
+  font-size: 2rem;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
 #header .left .search-container #search:hover, #header .left .search-container #search:focus {
   width: 25rem;
 }

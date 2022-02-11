@@ -1,11 +1,3 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login and Registration</title>
-    <link rel="stylesheet" href="login.css">
-</head>
 <body>
     <div class="hero">
 
@@ -16,9 +8,9 @@
                 <button type="button" class="toggle-btn" onclick="register()">Register</button>
             </div>
             <div class="social-icons">
-                <img src="images/facebook-square-brands.svg" alt="facebook">
-                <img src="images/twitter-square-brands.svg" alt="twitter">
-                <img src="images/google-plus-square-brands.svg" alt="google">
+                <img src="facebook-square-brands.svg" alt="facebook">
+                <img src="twitter-square-brands.svg" alt="twitter">
+                <img src="google-plus-square-brands.svg" alt="google">
             </div>
             <form action="" id="login" class="input-group">
             <input type="text" class="input-field" placeholder="User Id" required>
@@ -28,8 +20,6 @@
             </form>
             <form action="" id="register" class="input-group">
             <input type="text" class="input-field" placeholder="User Id" required>
-            <input type="text" class="input-field" placeholder="Full Name" required>
-            <input type="text" class="input-field" placeholder="Phone Number" required>
             <input type="email" class="input-field" placeholder="Email Id" required>
             <input type="text" class="input-field" placeholder="Enter Password" required>
             <input type="checkbox" class="check-box"><span>I agree to the terms & Conditions</span>
@@ -55,6 +45,3 @@
             z.style.left = "0px";
         }
     </script>
-
-</body>
-</html>

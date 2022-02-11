@@ -280,7 +280,7 @@ nav .wrapper {
 
   .nav-list .drop-menu1,
   .nav-list .drop-menu2 {
-    position: static;
+    position: absolute;
     opacity: 1;
     visibility: visible;
     top: 6.5rem;

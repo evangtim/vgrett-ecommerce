@@ -1,0 +1,1029 @@
+<header id="header" class="fixed-top">
+
+<div class="fas fa-bars"></div>
+
+<a href="#" class="logo"><i class="fas fa-shopping-bag"></i><h1>Vgrett Online Mart</h1></a>
+
+<div class="left">
+
+  <div class="login">
+    <a href="login.html" class="login">Login <span><i class="fas fa-sign-in-alt"></i></span></a>
+  </div>
+
+  <div class="search-container">
+    <label for="search" class="fas fa-search"></label>
+    <input type="search" placeholder="search" id="search">
+  </div>
+
+  <div class="fas fa-shopping-cart"></div>
+
+</div>
+
+<!-- navbar  -->
+
+<nav class="navbar">
+  <ul class="nav-list">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li>
+      <a href="" class="desktop-item">Shop <span><i class="fas fa-chevron-down"></i></span></a>
+      <input type="checkbox" id="showMega" />
+      <label for="showMega" class="mobile-item">Shop <span><i class="fas fa-chevron-down"></i></span></label>
+      <div class="mega-box">
+        <div class="content">
+          <div class="row">
+            <img src="./images/woman.jpg" alt="" />
+          </div>
+          <div class="row">
+            <header>Shop Layout</header>
+            <ul class="mega-links">
+              <li><a href="#">Shop With Background</a></li>
+              <li><a href="#">Shop Mini Categories</a></li>
+              <li><a href="#">Shop Only Categories</a></li>
+              <li><a href="#">Shop Icon Categories</a></li>
+            </ul>
+          </div>
+          <div class="row">
+            <header>Filter Layout</header>
+            <ul class="mega-links">
+              <li><a href="#">Sidebar</a></li>
+              <li><a href="#">Filter Default</a></li>
+              <li><a href="#">Filter Drawer</a></li>
+              <li><a href="#">Filter Dropdown</a></li>
+            </ul>
+          </div>
+          <div class="row">
+            <header>Product Layout</header>
+            <ul class="mega-links">
+              <li><a href="#">Layout Zoom</a></li>
+              <li><a href="#">Layout Sticky</a></li>
+              <li><a href="#">Layout Sticky 2</a></li>
+              <li><a href="#">Layout Scroll</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li><a href="">Blog</a></li>
+    <li><a href="login.html">Login</a></li>
+  </ul>
+</nav> 
+
+</header>
+
+<!-- header section ends -->
+
+
+<!-- home section starts  -->
+
+<section id="home" class="owl-carousel owl-theme home-slider">
+
+<div class="slide item">
+
+  <div class="content text-center text-md-left pl-md-5 ml-md-5">
+    <h1>nike's shoes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas unde excepturi saepe sit optio odit recusandae nesciunt doloremque nulla velit?</p>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <h3 class="price">₹600/-</h3>
+    <a href="#"><button>add to cart <i class="fas fa-shopping-cart"></i></button></a>
+  </div>
+
+  <div class="image">
+    <img src="images/shoe3.png" alt="" style="transform:rotate(35deg)">
+  </div>
+
+</div>
+
+<div class="slide item">
+
+  <div class="content text-center text-md-left pl-md-5 ml-md-5">
+    <h1>women's shoes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas unde excepturi saepe sit optio odit recusandae nesciunt doloremque nulla velit?</p>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <h3 class="price">₹1,300/-</h3>
+    <a href="#"><button>add to cart <i class="fas fa-shopping-cart"></i></button></a>
+  </div>
+
+  <div class="image">
+    <img src="images/cloth1.png" alt="">
+  </div>
+
+</div>
+
+<div class="slide item">
+
+  <div class="content text-center text-md-left pl-md-5 ml-md-5">
+    <h1>apple's watch</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas unde excepturi saepe sit optio odit recusandae nesciunt doloremque nulla velit?</p>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <h3 class="price">₹5,500/-</h3>
+    <a href="#"><button>add to cart <i class="fas fa-shopping-cart"></i></button></a>
+  </div>
+
+  <div class="image">
+    <img src="images/watch4.png" alt="">
+  </div>
+
+</div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- product section starts  -->
+
+<section id="product">
+
+<h1 class="heading">products</h1>
+
+<div class="product-container">
+
+<h2 class="title">shoes</h2>
+
+<div class="product-slider owl-carousel owl-theme">
+
+  <div class="product-card item">
+
+    <div class="image">
+      <img src="images/shoe1.png" alt="">
+    </div>
+
+    <div class="content">
+      <h3>shoe 1</h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+      <div class="price">₹550/-</div>
+    </div>
+
+    <div class="info">
+      <h4>product info</h4>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+      <a href="#"><button>add to cart</button></a>
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="product-card item">
+
+    <div class="image">
+      <img src="images/shoe2.png" alt="">
+    </div>
+
+    <div class="content">
+      <h3>shoe 2</h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+      <div class="price">₹450/-</div>
+    </div>
+
+    <div class="info">
+      <h4>product info</h4>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+      <a href="#"><button>add to cart</button></a>
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="product-card item">
+
+    <div class="image">
+      <img src="images/shoe3.png" alt="">
+    </div>
+
+    <div class="content">
+      <h3>shoe 3</h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+      <div class="price">₹650/-</div>
+    </div>
+
+    <div class="info">
+      <h4>product info</h4>
+      <p>Lorem sit amet consectetur, adipisicing elit. Minus voluptate exercitationem pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+      <a href="#"><button>add to cart</button></a>
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="product-card item">
+
+    <div class="image">
+      <img src="images/shoe4.png" alt="">
+    </div>
+
+    <div class="content">
+      <h3>shoe 4</h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+      <div class="price">₹550/-</div>
+    </div>
+
+    <div class="info">
+      <h4>product info</h4>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+      <a href="#"><button>add to cart</button></a>
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="product-card item">
+
+    <div class="image">
+      <img src="images/shoe5.png" alt="">
+    </div>
+
+    <div class="content">
+      <h3>shoe 4</h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+      </div>
+      <div class="price">₹450/-</div>
+    </div>
+
+    <div class="info">
+      <h4>product info</h4>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+      <a href="#"><button>add to cart</button></a>
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+</div>
+
+<!-- watches  -->
+
+<div class="product-container">
+
+  <h2 class="title">watches</h2>
+  
+  <div class="product-slider owl-carousel owl-theme">
+  
+    <div class="product-card item">
+  
+      <div class="image">
+        <img src="images/watch1.png" alt="">
+      </div>
+  
+      <div class="content">
+        <h3>watch 1</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">₹4,550/-</div>
+      </div>
+  
+      <div class="info">
+        <h4>product info</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+        <a href="#"><button>add to cart</button></a>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+      </div>
+  
+    </div>
+  
+    <div class="product-card item">
+  
+      <div class="image">
+        <img src="images/watch2.png" alt="">
+      </div>
+  
+      <div class="content">
+        <h3>watch 2</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">₹3,450/-</div>
+      </div>
+  
+      <div class="info">
+        <h4>product info</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+        <a href="#"><button>add to cart</button></a>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+      </div>
+  
+    </div>
+  
+    <div class="product-card item">
+  
+      <div class="image">
+        <img src="images/watch3.png" alt="">
+      </div>
+  
+      <div class="content">
+        <h3>watch 3</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">₹3,650/-</div>
+      </div>
+  
+      <div class="info">
+        <h4>product info</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+        <a href="#"><button>add to cart</button></a>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+      </div>
+  
+    </div>
+  
+    <div class="product-card item">
+  
+      <div class="image">
+        <img src="images/watch4.png" alt="">
+      </div>
+  
+      <div class="content">
+        <h3>watch 4</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">₹4,550/-</div>
+      </div>
+  
+      <div class="info">
+        <h4>product info</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+        <a href="#"><button>add to cart</button></a>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+      </div>
+  
+    </div>
+  
+  </div>
+  
+  </div>
+
+  <!-- shirts  -->
+
+<div class="product-container">
+
+    <h2 class="title">shirts</h2>
+    
+    <div class="product-slider owl-carousel owl-theme">
+    
+      <div class="product-card item">
+    
+        <div class="image">
+          <img src="images/shirt1.png" alt="">
+        </div>
+    
+        <div class="content">
+          <h3>shirt 1</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">₹550/-</div>
+        </div>
+    
+        <div class="info">
+          <h4>product info</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+          <a href="#"><button>add to cart</button></a>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+    
+      </div>
+    
+      <div class="product-card item">
+    
+        <div class="image">
+          <img src="images/shirt2.png" alt="">
+        </div>
+    
+        <div class="content">
+          <h3>shirt 2</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">₹450/-</div>
+        </div>
+    
+        <div class="info">
+          <h4>product info</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+          <a href="#"><button>add to cart</button></a>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+    
+      </div>
+    
+      <div class="product-card item">
+    
+        <div class="image">
+          <img src="images/shirt3.png" alt="">
+        </div>
+    
+        <div class="content">
+          <h3>shirt 3</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">₹650/-</div>
+        </div>
+    
+        <div class="info">
+          <h4>product info</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+          <a href="#"><button>add to cart</button></a>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+    
+      </div>
+    
+      <div class="product-card item">
+    
+        <div class="image">
+          <img src="images/shirt4.png" alt="">
+        </div>
+    
+        <div class="content">
+          <h3>shirt 4</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="price">₹550/-</div>
+        </div>
+    
+        <div class="info">
+          <h4>product info</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+          <a href="#"><button>add to cart</button></a>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+    
+      </div>
+    
+    </div>
+    
+</div>
+
+<!-- women's cloths  -->
+
+<div class="product-container">
+
+  <h2 class="title">women's cloths</h2>
+  
+  <div class="product-slider owl-carousel owl-theme">
+  
+    <div class="product-card item">
+  
+      <div class="image">
+        <img src="images/cloth1.png" alt="">
+      </div>
+  
+      <div class="content">
+        <h3>cloth 1</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">₹750/-</div>
+      </div>
+  
+      <div class="info">
+        <h4>product info</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+        <a href="#"><button>add to cart</button></a>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+      </div>
+  
+    </div>
+  
+    <div class="product-card item">
+  
+      <div class="image">
+        <img src="images/cloth2.png" alt="">
+      </div>
+  
+      <div class="content">
+        <h3>cloth 2</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">₹850/-</div>
+      </div>
+  
+      <div class="info">
+        <h4>product info</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+        <a href="#"><button>add to cart</button></a>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+      </div>
+  
+    </div>
+  
+    <div class="product-card item">
+  
+      <div class="image">
+        <img src="images/cloth3.png" alt="">
+      </div>
+  
+      <div class="content">
+        <h3>cloth 3</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">₹650/-</div>
+      </div>
+  
+      <div class="info">
+        <h4>product info</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+        <a href="#"><button>add to cart</button></a>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+      </div>
+  
+    </div>
+  
+    <div class="product-card item">
+  
+      <div class="image">
+        <img src="images/cloth4.png" alt="">
+      </div>
+  
+      <div class="content">
+        <h3>cloth 4</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">₹850/-</div>
+      </div>
+  
+      <div class="info">
+        <h4>product info</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+        <a href="#"><button>add to cart</button></a>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+      </div>
+  
+    </div>
+
+    <div class="product-card item">
+  
+      <div class="image">
+        <img src="images/cloth5.png" alt="">
+      </div>
+  
+      <div class="content">
+        <h3>cloth 5</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">₹850/-</div>
+      </div>
+  
+      <div class="info">
+        <h4>product info</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+        <a href="#"><button>add to cart</button></a>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+      </div>
+  
+    </div>
+  
+  </div>
+  
+</div>
+
+<!-- smartphones  -->
+
+<div class="product-container">
+
+  <h2 class="title">smartphones</h2>
+  
+  <div class="product-slider owl-carousel owl-theme">
+  
+    <div class="product-card item">
+  
+      <div class="image">
+        <img src="images/phone1.png" alt="">
+      </div>
+  
+      <div class="content">
+        <h3>phone 1</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">₹5,550/-</div>
+      </div>
+  
+      <div class="info">
+        <h4>product info</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+        <a href="#"><button>add to cart</button></a>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+      </div>
+  
+    </div>
+  
+    <div class="product-card item">
+  
+      <div class="image">
+        <img src="images/phone2.png" alt="">
+      </div>
+  
+      <div class="content">
+        <h3>phone 2</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">₹6,450/-</div>
+      </div>
+  
+      <div class="info">
+        <h4>product info</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+        <a href="#"><button>add to cart</button></a>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+      </div>
+  
+    </div>
+  
+    <div class="product-card item">
+  
+      <div class="image">
+        <img src="images/phone3.png" alt="">
+      </div>
+  
+      <div class="content">
+        <h3>phone 3</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <div class="price">₹7,650/-</div>
+      </div>
+  
+      <div class="info">
+        <h4>product info</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptate exercitationem pariatur sunt nihil rem molestiae accusamus ipsam dignissimos tenetur.</p>
+        <a href="#"><button>add to cart</button></a>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+      </div>
+  
+    </div>
+  
+  </div>
+  
+</div>
+
+</section>
+
+<!-- product section ends -->
+
+<section id="review">
+
+  <div class="shape"></div>
+
+<div class="heading">our customers review</div>
+
+<div class="box-container">
+
+<div class="review-slider owl-carousel owl-theme">
+
+  <div class="box item">
+
+    <div class="comment">
+      <p><i class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo qui dolor porro voluptatem autem, esse voluptate aut dolore? Dignissimos, impedit?<i class="fas fa-quote-right"></i></p>
+      <h3>--someone's name</h3>
+    </div>
+
+    <div class="image">
+      <img src="images/pic1.jpg" alt="">
+    </div>
+
+  </div>
+
+  <div class="box item">
+
+    <div class="comment">
+      <p><i class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo qui dolor porro voluptatem autem, esse voluptate aut dolore? Dignissimos, impedit?<i class="fas fa-quote-right"></i></p>
+      <h3>--someone's name</h3>
+    </div>
+
+    <div class="image">
+      <img src="images/pic2.png" alt="">
+    </div>
+
+  </div>
+
+  <div class="box item">
+
+    <div class="comment">
+      <p><i class="fas fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo qui dolor porro voluptatem autem, esse voluptate aut dolore? Dignissimos, impedit?<i class="fas fa-quote-right"></i></p>
+      <h3>--someone's name</h3>
+    </div>
+
+    <div class="image">
+      <img src="images/pic3.png" alt="">
+    </div>
+
+  </div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- offer/deal section starts  -->
+
+<section id="offer">
+
+  <div class="heading">deal of the day</div>
+
+  <div class="images">
+
+    <div class="box">
+      <img src="images/icon1.svg" alt="">
+      <h3>Home Delivery</h3>
+    </div>
+
+    <div class="box">
+      <img src="images/icon2.svg" alt="">
+      <h3>Pay on Delivery</h3>
+    </div>
+
+    <div class="box">
+      <img src="images/icon3.svg" alt="">
+      <h3>10 days replacements</h3>
+    </div>
+
+  </div>
+
+  <div class="deal">
+
+    <div class="image">
+      <img src="images/smartphone.png" alt="">
+    </div>
+
+    <div class="content">
+      <h4>smartphone</h4>
+      <p>upto 20% off on first shopping</p>
+      <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+      <div class="price">₹8,000/-</div>
+      <a href="#"><button>add to cart</button></a>
+    </div>
+
+  </div>
+
+</section>
+
+<!-- offer/deal section ends -->
+
+<!-- brand section  -->
+
+<section class="section brands">
+  <div class="title">
+    <h2>Shop by Brand</h2>
+    <span>Select from the premium product brands and save plenty money</span>
+  </div>
+
+  <div class="brand-layout container">
+    <div class="glide" id="glide1">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide">
+            <img src="./images/brand1.png" alt="">
+          </li>
+          <li class="glide__slide">
+            <img src="./images/brand2.png" alt="">
+          </li>
+          <li class="glide__slide">
+            <img src="./images/brand3.png" alt="">
+          </li>
+          <li class="glide__slide">
+            <img src="./images/brand4.png" alt="">
+          </li>
+          <li class="glide__slide">
+            <img src="./images/brand5.png" alt="">
+          </li>
+          <li class="glide__slide">
+            <img src="./images/brand6.png" alt="">
+          </li>
+          <li class="glide__slide">
+            <img src="./images/brand7.png" alt="">
+          </li>
+          
+          
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- newsletter section starts  -->
+
+<section id="newsletter">
+
+  <h1>newsletter</h1>
+  <p>subscribe us for latest updates</p>
+  <input type="text" placeholder="subscribe"><br>
+  <input type="submit" value="subscribe">
+
+</section>
+
+<!-- newsletter section ends -->
